@@ -1,0 +1,146 @@
+/* ======================
+UNIVERSAL CSS HERE
+=========================*/
+@media screen and (max-width: 767px){
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 767px;
+    margin: 0 auto;
+}
+.container-fluid{
+    width: 100%;
+}
+
+.heading-one{
+    font-size: 40px;
+    line-height: 1.2em;
+}
+.heading-three{
+    font-size: 24px;
+    line-height: 1.2em;
+}
+.heading-four{
+    font-size: 18px;
+    line-height: 1.2em;
+}
+
+.text{
+    font-size: 14px;
+    line-height: 1.5em;
+}
+.btn{
+    font-size: 14px;
+    line-height: 14px;
+    padding: 10px 15px;
+}
+}
+
+
+
+/* ======================
+UNIVERSAL CSS HERE
+=========================*/
+@media screen and (max-width: 767px){
+
+.banner-section{
+    width: 685px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding: 10% 10% 0;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    text-align: center;
+}    
+}
+
+
+
+/* ===================
+CONTENT SECTION START HERE
+======================*/
+@media screen and (max-width: 767px){
+
+.content-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+}
+.content-tab{
+    background-color: #fff;
+    width: 100%;
+    padding: 10% 25%;
+}
+.content-tab ul li{
+    background-color: #fff;
+    border: 1px solid #acacac;
+    text-align: center;
+}
+
+/* ===================
+UPCOMING MATCHES START HERE
+======================*/
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.upcoming-matches{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+/*==============
+Blogs start here
+=====================*/
+.blogs{
+    justify-content: center;
+    gap: 50px;
+}
+}
+
+/* ===================
+FOOTER SECTION START HERE
+======================*/
+@media screen and (max-width: 767px){
+
+.footer-content{
+    padding: 75px 20px;
+    row-gap: 50px;
+}
+.footer-content ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}

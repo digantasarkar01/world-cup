@@ -1,0 +1,257 @@
+/* =======================
+Font Link Here : Montserrat
+===========================*/
+@font-face {
+    font-family: "montserrat";
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+
+/* ======================
+UNIVERSAL CSS IS HERE
+=========================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container-fluid{
+    width: 100%;
+}
+
+.heading-one{
+    font-family: montserrat;
+    font-size: 60px;
+    line-height: 1em;
+    font-weight: 700;
+}
+.heading-three{
+    font-family: montserrat;
+    font-size: 28px;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.heading-four{
+    font-family: montserrat;
+    font-size: 20px;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.text{
+    font-family: montserrat;
+    font-size: 18px;
+    line-height: 1.3em;
+    font-weight: 400;
+}
+.btn{
+    font-family: montserrat;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    border-radius: 4px;
+    padding: 15px 25px;
+}
+/* ===================
+BANNER SECTION STYLE HERE
+======================*/
+.main-content{
+    margin: 50px 0 75px;
+}
+.banner-section{
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+    padding: 50px 50px 0;
+    border-radius: 15px;
+    background-color: #000000;
+    box-sizing: border-box;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: flex-start;
+}
+.banner-text h1, h1+p{
+    color: #fff;
+}
+.fa-angle-right{
+    margin-left: 15px;
+}
+
+/* ===================
+CONTENT SECTION START HERE
+======================*/
+.content-section{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    column-gap: 35px;
+    margin-top: 75px;
+}
+.content-tab{
+    background-color: #000000;
+    flex: 2;
+    padding: 30px;
+    border-radius: 10px;
+}
+.content-tab ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    list-style-type: none;
+
+}
+.content-tab ul li{
+    color: #000000;
+    padding: 15px 25px;
+    background-color: #fff;
+    border-radius: 4px;
+    font-family: montserrat;
+    font-size: 20px;
+    line-height: 1em;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.content-tab ul li:nth-of-type(1){
+    background-color: red;
+    color: #fff;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    flex: 8;
+}
+
+
+
+
+/*==============
+Upcoming matches here
+=====================*/
+
+.upcoming-matches{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.single-match{
+    padding: 20px;
+    border: 1px solid #d4d4d4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    border-radius: 4px;
+    max-width: 275px;
+}
+.match-compititor{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.match-info h4{
+    margin-bottom: 5px;
+}
+.match-info h4+p{
+    color: #000000;
+
+}
+
+/*==============
+Blogs start here
+=====================*/
+.blogs{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.single-blog{
+    border: 1px solid #b6b6b6;
+    border-radius: 10px;
+    max-width: 275px;
+}
+.blog-image img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.blog-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+    padding: 18px;
+}
+.blog-info a{
+    font-family: montserrat;
+    font-size: 18px;
+    line-height: 1em;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #9f9f9f;
+    border-radius: 4px;
+    padding: 12px 25px;
+    display: inline-block;
+}
+.blog-stat{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+}
+
+/* ===================
+FOOTER SECTION START HERE
+======================*/
+.footer{
+    background-color: #000000;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 150px 0;
+    row-gap: 50px;
+}
+.footer-top h4{
+    color: #fff;
+}
+.footer-nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 25px;
+}
+.footer-nav ul li a{
+    font-family: montserrat;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+}

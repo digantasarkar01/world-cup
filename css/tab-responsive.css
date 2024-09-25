@@ -1,0 +1,51 @@
+/* ======================
+UNIVERSAL CSS HERE
+=========================*/
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        max-width: 1023px;
+    }
+    
+    .heading-one{
+        font-size: 40px;
+        line-height: 1.2em;
+    }
+    .heading-three{
+        font-size: 24px;
+        line-height: 1.2em;
+    }
+    .heading-four{
+        font-size: 18px;
+        line-height: 1.2em;
+    }
+    
+    .text{
+        font-size: 14px;
+        line-height: 1.5em;
+    }
+    .btn{
+        font-size: 14px;
+        line-height: 14px;
+        padding: 10px 15px;
+    }
+    }
+    
+    
+    
+    /* ======================
+    BANNER SECTION START HERE
+    =========================*/
+    @media screen and (min-width: 768px) and (max-width: 1023px){
+    
+    .banner-section{
+        display: flex;
+        flex-direction: row;
+        column-gap: 25px;
+        padding: 25px;
+    }
+}
