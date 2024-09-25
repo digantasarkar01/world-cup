@@ -89,6 +89,10 @@ BANNER SECTION STYLE HERE
 .fa-angle-right{
     margin-left: 15px;
 }
+.banner-image img{
+    width: 500px;
+}
+
 
 /* ===================
 CONTENT SECTION START HERE
